@@ -1,0 +1,33 @@
+pi@raspberrypi:~/Documents $ python3 main.py 
+2025-05-13 06:56:58,133 - __main__ - INFO - Successfully imported rdm6300 library.
+2025-05-13 06:56:58,134 - __main__ - ERROR - Error converting configuration value in 'config.ini': Not a boolean: False ; Set to True if you want to run without RFID for testing video parts. Check number formats. Some defaults may be used.
+2025-05-13 06:56:58,134 - __main__ - INFO - Kiosk application starting...
+2025-05-13 06:56:58,134 - __main__ - INFO - Effective Log Level: INFO
+2025-05-13 06:56:58,134 - __main__ - INFO - Using Idle Video: AF_Materna_Video1_Abertura_LB.mp4
+2025-05-13 06:56:58,134 - __main__ - INFO - Tag to Video Map (Int_key : Video_file): {}
+2025-05-13 06:56:58,134 - __main__ - INFO - Main: Preparing to start RFID thread.
+2025-05-13 06:56:58,134 - __main__ - INFO - RFID Thread: Starting.
+2025-05-13 06:56:58,134 - __main__ - INFO - Main: RFID reader thread initiated successfully.
+2025-05-13 06:56:58,134 - __main__ - INFO - RfidVideoHandler: Initializing with port=/dev/serial0, heartbeat=0.5
+2025-05-13 06:56:58,135 - __main__ - INFO - RfidVideoHandler: Successfully initialized serial port /dev/serial0.
+2025-05-13 06:56:58,135 - __main__ - INFO - RfidVideoHandler: Serial port /dev/serial0 is open.
+2025-05-13 06:56:58,135 - __main__ - INFO - RFID Thread: RfidVideoHandler instantiated. Calling rfid_handler.start().
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+qt.qpa.wayland: Wayland does not support QWindow::requestActivate()
+2025-05-13 06:56:58,242 - __main__ - INFO - Loading video: media/AF_Materna_Video1_Abertura_LB.mp4
+2025-05-13 06:56:58,263 - __main__ - INFO - Video properties updated: 1920x1080 @ 29.97 FPS
+2025-05-13 06:57:01,744 - __main__ - INFO - RfidVideoHandler: Valid Tag Inserted: ID(int)=7517073
+2025-05-13 06:57:01,773 - __main__ - INFO - Tag ID(int) 7517073 detected but not in map or video file missing.
+2025-05-13 06:57:03,417 - __main__ - INFO - RFID Tag Removed: ID=7517073 (event ignored for video control)
+^C2025-05-13 06:57:18,801 - __main__ - INFO - Ctrl+C pressed, exiting.
+2025-05-13 06:57:18,801 - __main__ - INFO - Stopping RFID thread...
+2025-05-13 06:57:18,870 - __main__ - INFO - RfidVideoHandler.tick: stop_rfid_thread is set, calling self.stop()
+2025-05-13 06:57:18,871 - __main__ - INFO - RFID Thread: rfid_handler.start() returned (reader loop ended).
+2025-05-13 06:57:18,871 - __main__ - INFO - RFID Thread: Closing rfid_handler.
+2025-05-13 06:57:18,871 - __main__ - INFO - RFID Thread: Stopped and cleaned up.
+2025-05-13 06:57:18,872 - __main__ - INFO - Resources released. Kiosk application stopped.
+pi@raspberrypi:~/Documents $ 
